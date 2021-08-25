@@ -1,2 +1,2 @@
-# caixa_eletronico
- Simulação de saque de um caixa eletrônico
+# HandTracking
+ Um código onde consegue capitar os movimentos da sua mão pela webcam do computador
