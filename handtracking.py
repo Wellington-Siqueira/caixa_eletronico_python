@@ -20,7 +20,7 @@ if webcam.isOpened():
 
         if frameProcessado.multi_hand_landmarks:
             for artiMao in frameProcessado.multi_hand_landmarks:
-                desenho.draw_landmarks(frame, artiMao)
+                desenho.draw_landmarks(frame, artiMao, mpMao.HAND_CONNECTIONS)
         cv2.imshow("Imagem", frame)
         keyFrame = cv2.waitKey(5)
         if keyFrame == 27:
