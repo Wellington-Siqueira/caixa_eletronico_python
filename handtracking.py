@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 
-webcam = cv2.VideoCapture(1)
+webcam = cv2.VideoCapture(0)
 mpMao = mp.solutions.hands
 mao = mpMao.Hands()
 desenho = mp.solutions.drawing_utils
