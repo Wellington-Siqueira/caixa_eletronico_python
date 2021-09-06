@@ -1,2 +1,2 @@
-# HandTracking
- Um código onde consegue capitar os movimentos da sua mão pela webcam do computador
+# Projetos feitos em Python
+ Nesse repositório contem alguns projetos utilizando python e algumas bibliotecas muito utilizadas como o opencv
